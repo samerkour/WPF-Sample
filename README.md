@@ -1,5 +1,5 @@
 # WPF-Sample
-.Net Cor 6, WPF Forntend, Restful API backend, Clean Architecture,  
+.Net Cor 6, WPF Forntend, Restful API backend, Clean Architecture, and MS SQL Server  
 
 This project Contains two .Net Core 6 projects. 
 WPF Frontend project (used to load data in Datagrid directly from the database or Backend, and present a chart with data loaded from XML and update manually or Automatically).
