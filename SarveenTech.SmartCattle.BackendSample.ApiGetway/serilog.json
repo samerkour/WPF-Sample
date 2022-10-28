@@ -1,0 +1,78 @@
+﻿{
+    "Serilog": {
+      "MinimumLevel": {
+        "Default": "Error",
+        "Override": {
+          "Skoruba": "Information"
+        }
+      },
+        "WriteTo": [
+            {
+                "Name": "Console"
+            },
+            {
+                "Name": "File",
+                "Args": {
+                    "path": "Log\\LogFile.txt",
+                    "rollingInterval": "Day"
+                }
+            },
+          {
+            "Name": "MSSqlServer",
+            "Args": {
+              "connectionString": "Data Source=79.127.125.4,11298;Initial Catalog=IdentityServer4Admin;user id=sa;password=$@rveenSQel",
+              "tableName": "Log",
+              "columnOptionsSection": {
+                "disableTriggers": true,
+                "clusteredColumnstoreIndex": false,
+                "addStandardColumns": [ "LogEvent" ],
+                "removeStandardColumns": [ "MessageTemplate", "Properties" ],
+                "additionalColumns": [
+                  {
+                    "ColumnName": "SourceContext",
+                    "DataType": "nvarchar",
+                    "AllowNull": true,
+                    "DataLength": 1024
+                  },
+                  {
+                    "ColumnName": "ApplicationName",
+                    "DataType": "nvarchar",
+                    "AllowNull": true,
+                    "DataLength": 1024
+                  },
+                  {
+                    "ColumnName": "EnvironmentUserName",
+                    "PropertyName": "UserName",
+                    "DataType": "nvarchar",
+                    "DataLength": 128
+                  },
+                  {
+                    "ColumnName": "MachineName",
+                    "PropertyName": "MachineName",
+                    "DataType": "nvarchar",
+                    "DataLength": 128
+                  },
+                  {
+                    "ColumnName": "ClientIp",
+                    "PropertyName": "ClientIp",
+                    "DataType": "nvarchar",
+                    "DataLength": 128
+                  },
+
+                  {
+                    "ColumnName": "ClientAgent",
+                    "PropertyName": "ClientAgent",
+                    "DataType": "nvarchar",
+                    "DataLength": 512
+                  }
+                ],
+                "logEvent": {
+                  "excludeAdditionalProperties": true,
+                  "excludeStandardColumns": true
+                }
+              }
+            }
+          }
+        ]
+    }
+}

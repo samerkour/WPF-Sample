@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ChartDataXMLDocument>
+	<Title>Data Loaded From XML Doc</Title>
+	<Count value="6" />
+	<ChartValues>
+		<Item value="100" >100</Item>
+		<Item value="300" >300</Item>
+		<Item value="200" >200</Item>
+		<Item value="250" >250</Item>
+		<Item value="360" >360</Item>
+		<Item value="150" >150</Item>
+	</ChartValues>
+</ChartDataXMLDocument>
