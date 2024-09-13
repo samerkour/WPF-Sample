@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STech.PagedList.Core", "STe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF Presentation", "WPF Presentation\WPF Presentation.csproj", "{75C4E915-8B17-42FB-8B9F-F0C71AD3C725}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STech.Api", "SarveenTech.Api\STech.Api.csproj", "{EAF87B72-2EA1-4A5D-9660-0200751F0E67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STech.Api", "STech.Api\STech.Api.csproj", "{EAF87B72-2EA1-4A5D-9660-0200751F0E67}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4.Shared", "IdentityServer4.Shared\IdentityServer4.Shared.csproj", "{F0DBA787-059D-4DF7-BA89-870A0D1B29ED}"
 EndProject

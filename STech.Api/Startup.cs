@@ -175,14 +175,14 @@ namespace SarveenTech.API
                                //,TermsOfService = apiVersion.TermsOfService 
                                Contact = new OpenApiContact
                                {
-                                   Name = "Sarveen Technology",
+                                   Name = "Samer Kour",
                                    Email = "koursamer@gmail.com",
-                                   //Url = new Uri("http://sarveentech.ir/"),
+                                   //Url = new Uri("http://Samerkour.ir/"),
                                },
                                License = new OpenApiLicense
                                {
-                                   Name = "Smart Cattle API Backend",
-                                   //Url = new Uri("http://sarveentech.ir/license"),
+                                   Name = "API Backend",
+                                   //Url = new Uri("http://Samerkour.ir/license"),
                                }
                            }
                     );
