@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>STech.Api</name>
+    </assembly>
+    <members>
+        <member name="M:SarveenTech.API.Controllers.V1.ValuesController.GetAsListAsync">
+            <summary>
+            Get all farms as list
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SarveenTech.API.Helpers.Localization.GenericControllerLocalizer`1.#ctor(Microsoft.Extensions.Localization.IStringLocalizerFactory)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.Extensions.Localization.StringLocalizer`1" />.
+            </summary>
+            <param name="factory">The <see cref="T:Microsoft.Extensions.Localization.IStringLocalizerFactory" /> to use.</param>
+        </member>
+    </members>
+</doc>
