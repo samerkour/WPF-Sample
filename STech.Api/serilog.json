@@ -20,7 +20,7 @@
           {
             "Name": "MSSqlServer",
             "Args": {
-              "connectionString": "Data Source=79.127.125.4,11298;Initial Catalog=IdentityServer4Admin;user id=sa;password=$@rveenSQel",
+              "connectionString": "Data Source=.;Initial Catalog=IdentityServer4Admin;user id=sa;password=$@rveenSQel",
               "tableName": "Log",
               "columnOptionsSection": {
                 "disableTriggers": true,

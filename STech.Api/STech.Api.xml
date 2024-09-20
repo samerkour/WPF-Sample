@@ -6,7 +6,7 @@
     <members>
         <member name="M:SarveenTech.API.Controllers.V1.ValuesController.GetAsListAsync">
             <summary>
-            Get all farms as list
+            Get all as list
             </summary>
             <returns></returns>
         </member>

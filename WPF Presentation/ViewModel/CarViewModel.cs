@@ -66,7 +66,7 @@ namespace WPF_Presentation.ViewModel
             //   await Task.Run(() => JsonConvert.SerializeObject(new
             //   {
             //       apiKey = _configuration.GetValue<string>("IParsConfiguration:APIKey"),
-            //       spId = farmId,
+            //       spId = Id,
             //       mapType = "physical(json)"
             //   }));
 

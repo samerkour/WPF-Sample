@@ -6,10 +6,10 @@ namespace IdentityServer4.Shared.Configuration.Constants
 {
     public class AuthorizationConsts
     {
-        public const string FarmPolicy = "RequireFarmRole";
+        public const string Policy = "RequireRole";
         public const string AdministrationPolicy = "RequireAdministratorRole";
-        public const string FarmDirectorPolicy = "RequireFarmDirectorRole";
-        public const string FarmAdminPolicy = "RequireFarmAdminRole";
-        public const string FarmUserPolicy = "RequireFarmUserRole";
+        public const string DirectorPolicy = "RequireDirectorRole";
+        public const string AdminPolicy = "RequireAdminRole";
+        public const string UserPolicy = "RequireUserRole";
     }
 }

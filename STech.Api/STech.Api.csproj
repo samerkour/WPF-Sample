@@ -71,10 +71,10 @@
     </ItemGroup>
 
     <ItemGroup>
-      <EmbeddedResource Update="Resources\Controllers\V1\FarmsController.en-US.resx">
+      <EmbeddedResource Update="Resources\Controllers\V1\ValuesController.en-US.resx">
         <Generator></Generator>
       </EmbeddedResource>
-      <EmbeddedResource Update="Resources\Controllers\V1\FarmsController.fa-IR.resx">
+      <EmbeddedResource Update="Resources\Controllers\V1\ValuesController.fa-IR.resx">
         <Generator></Generator>
       </EmbeddedResource>
     </ItemGroup>

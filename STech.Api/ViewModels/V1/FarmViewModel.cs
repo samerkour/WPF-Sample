@@ -3,9 +3,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace SarveenTech.API.ViewModels.V1
 {
-    public class FarmViewModel
+    public class SampleViewModel
     {
-        public FarmViewModel()
+        public SampleViewModel()
         {
             
         }

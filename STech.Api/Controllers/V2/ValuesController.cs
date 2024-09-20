@@ -37,7 +37,7 @@ namespace SarveenTech.API.Controllers.V2
             _localizer = localizer;
         }
 
-        // GET: api/<FarmsController>
+        // GET: api/<ValuesController>
         [HttpGet("GetAsListAsync")]
         public IActionResult GetAsListAsync()
         {
@@ -47,26 +47,26 @@ namespace SarveenTech.API.Controllers.V2
             return Ok(str.Value);
         }
 
-        //// GET api/<FarmsController>/5
+        //// GET api/<ValuesController>/5
         //[HttpGet("{id}")]
         //public string Get(int id)
         //{
         //    return "value";
         //}
 
-        //// POST api/<FarmsController>
+        //// POST api/<ValuesController>
         //[HttpPost]
         //public void Post([FromBody] string value)
         //{
         //}
 
-        //// PUT api/<FarmsController>/5
+        //// PUT api/<ValuesController>/5
         //[HttpPut("{id}")]
         //public void Put(int id, [FromBody] string value)
         //{
         //}
 
-        //// DELETE api/<FarmsController>/5
+        //// DELETE api/<ValuesController>/5
         //[HttpDelete("{id}")]
         //public void Delete(int id)
         //{

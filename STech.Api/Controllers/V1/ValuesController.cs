@@ -41,12 +41,12 @@ namespace SarveenTech.API.Controllers.V1
             _localizer = localizer;
 
         }
-        /// <summary>
-        /// Get all farms as list
-        /// </summary>
-        /// <returns></returns>
-        // GET: api/<FarmsController>
-        [HttpGet("GetAsListAsync")]
+		/// <summary>
+		/// Get all as list
+		/// </summary>
+		/// <returns></returns>
+		// GET: api/<ValuesController>
+		[HttpGet("GetAsListAsync")]
         public async Task<IActionResult> GetAsListAsync()
         {
             var cars = await _unitOfWork.GetRepository<Car>().GetAsync();
